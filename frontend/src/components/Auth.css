@@ -3,26 +3,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 20px;
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/038/830/156/small_2x/ai-generated-minimalistic-sweet-and-candy-background-concept-with-empty-space-photo.jpg') no-repeat center center/cover;
+  position: relative;
+}
+
+/* Overlay for better readability */
+.auth-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 235, 242, 0.4); /* semi-transparent soft pink overlay */
+  z-index: 1;
 }
 
 .auth-card {
+  position: relative;
+  z-index: 2; /* bring card above overlay */
   background: white;
   border-radius: 10px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   padding: 40px;
   max-width: 450px;
   width: 100%;
+  border: 2px solid #ffd1e1;
 }
 
 .auth-card h2 {
-  color: #333;
+  color: #7b0331;
   margin-bottom: 30px;
   text-align: center;
   font-size: 28px;
 }
 
+/* Form styling remains same */
 .form-group {
   margin-bottom: 20px;
 }
@@ -46,7 +63,7 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #b31552;
 }
 
 .btn {
@@ -61,13 +78,13 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ed0a5d 0%, #7b0331 100%);
   color: white;
 }
 
 .btn-primary:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 15px rgba(216, 27, 96, 0.25);
 }
 
 .btn:disabled {
@@ -76,12 +93,12 @@
 }
 
 .error-message {
-  background: #fee;
-  color: #c33;
+  background: #fff0f3;
+  color: #d81b60;
   padding: 12px;
   border-radius: 5px;
   margin-bottom: 20px;
-  border-left: 4px solid #c33;
+  border-left: 4px solid #d81b60;
 }
 
 .auth-link {
@@ -91,7 +108,7 @@
 }
 
 .auth-link a {
-  color: #667eea;
+  color: #d81b60;
   text-decoration: none;
   font-weight: 600;
 }
