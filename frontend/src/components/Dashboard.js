@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { sweetsAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
@@ -20,24 +20,7 @@ const Dashboard = () => {
     fetchSweets();
   }, []);
 
-  useEffect(() => {
-    filterSweets();
-  }, [searchTerm, categoryFilter, priceRange, sweets]);
-
-  const fetchSweets = async () => {
-    try {
-      setLoading(true);
-      const res = await sweetsAPI.getAll();
-      setSweets(res.data);
-      setFilteredSweets(res.data);
-    } catch {
-      setError('Failed to fetch sweets');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const filterSweets = () => {
+  const filterSweets = useCallback(() => {
     let result = [...sweets];
 
     if (searchTerm) {
@@ -60,7 +43,26 @@ const Dashboard = () => {
     }
 
     setFilteredSweets(result);
+  }, [searchTerm, categoryFilter, priceRange, sweets]);
+
+  useEffect(() => {
+    filterSweets();
+  }, [filterSweets]);
+
+  const fetchSweets = async () => {
+    try {
+      setLoading(true);
+      const res = await sweetsAPI.getAll();
+      setSweets(res.data);
+      setFilteredSweets(res.data);
+    } catch {
+      setError('Failed to fetch sweets');
+    } finally {
+      setLoading(false);
+    }
   };
+
+  
 
   const handlePurchase = async (sweetId, qty) => {
     try {
