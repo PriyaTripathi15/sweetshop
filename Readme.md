@@ -320,7 +320,7 @@ Throughout development, I:
 ## 📸 Screenshots
 
 ### Dashboard
-![Sweet Shop Dashboard](output/dashboard)
+![Sweet Shop Dashboard](outputs/dashboard)
 *Main dashboard showing all available sweets with search and filters*
 
 ### Login Page
