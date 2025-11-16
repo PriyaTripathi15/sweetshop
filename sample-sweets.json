@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Milk Chocolate Bar",
+    "category": "Chocolate",
+    "price": 2.50,
+    "quantity": 100,
+    "description": "Smooth and creamy milk chocolate",
+    "imageUrl": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+  },
+  {
+    "name": "Dark Chocolate Truffle",
+    "category": "Chocolate",
+    "price": 3.75,
+    "quantity": 50,
+    "description": "Rich dark chocolate with a velvety center",
+    "imageUrl": "https://images.unsplash.com/photo-1548907040-4baa42d10919?w=400"
+  },
+  {
+    "name": "White Chocolate Dream",
+    "category": "Chocolate",
+    "price": 2.99,
+    "quantity": 75,
+    "description": "Sweet and creamy white chocolate delight",
+    "imageUrl": "https://images.unsplash.com/photo-1606312619070-d48b4763ed6f?w=400"
+  },
+  {
+    "name": "Rainbow Gummy Bears",
+    "category": "Gummy",
+    "price": 1.99,
+    "quantity": 200,
+    "description": "Colorful and fruity gummy bears",
+    "imageUrl": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+  },
+  {
+    "name": "Sour Worms",
+    "category": "Gummy",
+    "price": 2.25,
+    "quantity": 150,
+    "description": "Tangy and chewy sour gummy worms",
+    "imageUrl": "https://images.unsplash.com/photo-1581798459219-c8f5e8c6ee1e?w=400"
+  },
+  {
+    "name": "Hard Candy Mix",
+    "category": "Hard Candy",
+    "price": 1.50,
+    "quantity": 300,
+    "description": "Assorted fruit flavored hard candies",
+    "imageUrl": "https://images.unsplash.com/photo-1556245664-fdb2e4d1948c?w=400"
+  },
+  {
+    "name": "Swirl Lollipop",
+    "category": "Lollipop",
+    "price": 1.25,
+    "quantity": 180,
+    "description": "Classic swirl pattern lollipop",
+    "imageUrl": "https://images.unsplash.com/photo-1559486042-c527d1c86849?w=400"
+  },
+  {
+    "name": "Heart Lollipop",
+    "category": "Lollipop",
+    "price": 1.75,
+    "quantity": 120,
+    "description": "Heart-shaped strawberry lollipop",
+    "imageUrl": "https://images.unsplash.com/photo-1576287375167-e6f36e0e1c1c?w=400"
+  },
+  {
+    "name": "Caramel Chews",
+    "category": "Caramel",
+    "price": 2.99,
+    "quantity": 90,
+    "description": "Soft and buttery caramel chews",
+    "imageUrl": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400"
+  },
+  {
+    "name": "Toffee Crunch",
+    "category": "Toffee",
+    "price": 3.25,
+    "quantity": 60,
+    "description": "Crunchy English toffee with almonds",
+    "imageUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+  },
+  {
+    "name": "Peppermint Patties",
+    "category": "Chocolate",
+    "price": 2.50,
+    "quantity": 110,
+    "description": "Refreshing peppermint covered in dark chocolate",
+    "imageUrl": "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=400"
+  },
+  {
+    "name": "Cotton Candy",
+    "category": "Candy",
+    "price": 3.50,
+    "quantity": 45,
+    "description": "Fluffy and sweet cotton candy",
+    "imageUrl": "https://images.unsplash.com/photo-1576356159449-f4f1c3c69b65?w=400"
+  },
+  {
+    "name": "Jelly Beans",
+    "category": "Candy",
+    "price": 1.75,
+    "quantity": 250,
+    "description": "Assorted flavored jelly beans",
+    "imageUrl": "https://images.unsplash.com/photo-1582463423894-42761ce1a45e?w=400"
+  },
+  {
+    "name": "Chocolate Fudge",
+    "category": "Chocolate",
+    "price": 4.25,
+    "quantity": 40,
+    "description": "Rich and creamy chocolate fudge",
+    "imageUrl": "https://images.unsplash.com/photo-1586404787447-0c2ca35dd6c6?w=400"
+  },
+  {
+    "name": "Licorice Twists",
+    "category": "Candy",
+    "price": 1.99,
+    "quantity": 130,
+    "description": "Classic red and black licorice twists",
+    "imageUrl": "https://images.unsplash.com/photo-1625869016774-3c9a8a7b3f5d?w=400"
+  }
+]
