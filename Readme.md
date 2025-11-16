@@ -51,7 +51,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for managing a 
 - **Library**: React
 - **Routing**: React Router v6
 - **HTTP Client**: Axios
-- **Styling**: Tailwind css with modern gradients and animations
+- **Styling**: Tailwind CSS with modern gradients and animations
 
 ## 📁 Project Structure
 
