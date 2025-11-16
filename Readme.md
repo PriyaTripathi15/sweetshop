@@ -51,7 +51,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for managing a 
 - **Library**: React
 - **Routing**: React Router v6
 - **HTTP Client**: Axios
-- **Styling**: CSS3 with modern gradients and animations
+- **Styling**: Tailwind css with modern gradients and animations
 
 ## 📁 Project Structure
 
@@ -320,78 +320,31 @@ Throughout development, I:
 ## 📸 Screenshots
 
 ### Dashboard
-![Sweet Shop Dashboard](docs/screenshots/dashboard.png)
+![Sweet Shop Dashboard](output/dashboard)
 *Main dashboard showing all available sweets with search and filters*
 
 ### Login Page
-![Login Page](docs/screenshots/login.png)
+![Login Page](outputs/login.png)
 *User-friendly login interface with gradient design*
 
 ### Registration Page
-![Registration Page](docs/screenshots/register.png)
+![Registration Page](outputs/register.png)
 *Registration form with validation*
 
 ### Sweet Card
-![Sweet Card Display](docs/screenshots/sweetcard.png)
+![Sweet Card Display](outputs/filter&serch.png)
 *Individual sweet card with purchase option*
 
 ### Admin Panel
-![Admin Panel](docs/screenshots/admin.png)
+![Admin Panel](outputs/admin.png)
 *Admin view with add, edit, delete, and restock options*
 
 **Admin Login Credentials:**
-- Email: admin@sweetshop.com
-- Password: admin123
+- Email: admin@gmail.com
+- Password: 12345
 
 
-## 🚀 Deployment
 
-### Backend Deployment (Heroku Example)
-
-```bash
-# Install Heroku CLI and login
-heroku login
-
-# Create new app
-heroku create sweetshop-api
-
-# Set environment variables
-heroku config:set MONGODB_URI=mongodb+srv://ajits205070:as5759423@cluster0.rfk3tfn.mongodb.net/sweetshop
-heroku config:set JWT_SECRET=sweetshop_secret_key_change_in_production_2025
-heroku config:set NODE_ENV=production
-
-# Deploy
-git subtree push --prefix backend heroku main
-```
-
-### Frontend Deployment (Vercel Example)
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-
-# Set environment variables in Vercel dashboard
-REACT_APP_API_URL=https://your-backend-url.herokuapp.com/api
-```
-
-## 👥 Contributing
-
-This is a student project for campus placements. However, feedback and suggestions are welcome!
-
-## 📝 License
-
-This project is created for educational purposes.
-
-## 🙏 Acknowledgments
-
-- Thanks to the placement team for this challenging and educational assignment
-- Thanks to GitHub Copilot for accelerating development
-- Thanks to the open-source community for amazing tools
-
----
 
 ## 🎯 Quick Start Guide
 
