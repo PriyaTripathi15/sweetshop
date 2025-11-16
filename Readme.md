@@ -12,7 +12,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for managing a 
 - [Testing](#testing)
 - [My AI Usage](#my-ai-usage)
 - [Screenshots](#screenshots)
-- [Deployment](#deployment)
+
 
 ## ✨ Features
 
