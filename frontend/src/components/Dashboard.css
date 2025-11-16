@@ -98,7 +98,7 @@
 
 .search-input:focus {
   outline: none;
-  border-color: brown;
+  border-color: #b31552;
 }
 
 /* INPUTS */

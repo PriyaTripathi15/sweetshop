@@ -6,7 +6,7 @@
 /* HEADER */
 .admin-header {
   background: #ffffff;
-  box-shadow: 0 2px 10px rgba(216, 27, 96, 0.12); /* soft pink shadow */
+  box-shadow: 0 2px 9px rgba(216, 27, 96, 0.12); /* soft pink shadow */
   padding: 1.5rem 2rem;
   position: sticky;
   top: 0;
@@ -36,7 +36,7 @@
 
 .user-info span {
   font-weight: 500;
-  color: #777; /* soft grey */
+  color: #a19191; /* soft grey */
 }
 
 .admin-badge {
@@ -146,7 +146,7 @@ td {
 
 .sweet-name {
   font-weight: 600;
-  color: #b31552;
+  color: #b34215;
 }
 
 /* CATEGORY BADGE */
@@ -199,6 +199,20 @@ td {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.dashboard-header {
+  background: linear-gradient(135deg, #ed0a5d 0%, #7b0331 100%); /* dark pink gradient */
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* ACTION ICON BUTTONS */

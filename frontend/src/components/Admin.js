@@ -72,9 +72,13 @@ const Admin = () => {
 
   return (
     <div className="admin-panel">
-      <header className="admin-header">
+      <header className="admin-header dashboard-header">
         <div className="header-content">
-          <h1>🍬 Admin Panel - Sweet Shop Management</h1>
+          <img
+            src="https://tse1.mm.bing.net/th/id/OIP.BbHcLHRHQicFv98-agHHUQHaHa?pid=Api&P=0&h=180"
+            alt="SweetShop Logo"  
+            className="logo"
+          />
           <div className="user-info">
             <span>Welcome, {user?.username}!</span>
             <span className="admin-badge">Admin</span>
@@ -82,8 +86,9 @@ const Admin = () => {
           </div>
         </div>
       </header>
-
+ 
       <div className="admin-content">
+        <h1>Admin Panel - Sweet Shop Management</h1>
         <div className="admin-actions">
           <button
             onClick={() => setShowAddModal(true)}
