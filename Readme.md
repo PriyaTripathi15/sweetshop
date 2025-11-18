@@ -12,7 +12,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for managing a 
 - [Testing](#testing)
 - [My AI Usage](#my-ai-usage)
 - [Screenshots](#screenshots)
-- [Deployment](#deployment)
+
 
 ## ✨ Features
 
@@ -320,7 +320,7 @@ Throughout development, I:
 ## 📸 Screenshots
 
 ### Dashboard
-![Sweet Shop Dashboard](outputs/dashboard)
+![Sweet Shop Dashboard](outputs/dashboard.png)
 *Main dashboard showing all available sweets with search and filters*
 
 ### Login Page
